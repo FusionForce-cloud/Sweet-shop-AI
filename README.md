@@ -45,6 +45,3 @@ A full-stack web application for managing a sweet shop inventory, built with TDD
 ## Testing
 
 Run tests: `pytest`
-
-
-- Optimize CSS stylingAI helped accelerate development by providing code snippets and best practices, allowing focus on business logic anhots)
