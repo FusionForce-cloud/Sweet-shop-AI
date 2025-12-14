@@ -46,17 +46,5 @@ A full-stack web application for managing a sweet shop inventory, built with TDD
 
 Run tests: `pytest`
 
-## My AI Usage
 
-I used GitHub Copilot to:
-- Generate boilerplate for FastAPI routers and schemas
-- Suggest test structures and fixtures
-- Help with React component structure
-- Debug authentication and API integration
-- Optimize CSS styling
-
-AI helped accelerate development by providing code snippets and best practices, allowing focus on business logic and TDD.
-
-## Screenshots
-
-(TODO: Add screenshots)
+- Optimize CSS stylingAI helped accelerate development by providing code snippets and best practices, allowing focus on business logic anhots)
