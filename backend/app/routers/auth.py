@@ -12,7 +12,8 @@ def register(user: UserCreate, db: Session = Depends(get_db)):
     db_user = db.query(User).filter(User.username == user.username).first()
     if db_user:
         raise HTTPException(400, "Username already registered")
-    db_user = User(username=user.username, password=hash_password(user.password))
+    is_admin = user.username == "admin"
+    db_user = User(username=user.username, password=hash_password(user.password), is_admin=is_admin)
     db.add(db_user)
     db.commit()
     return {"msg": "User registered"}
